@@ -388,9 +388,16 @@ git push origin feature/amazing-feature
 
 ---
 
-## 📖 Citation
+## 📖 Citation & Preservation
 
 If you use this project in your research or work, please cite it:
+
+### Permanent Archival
+This project is preserved for long-term availability:
+- **DOI (Zenodo):** [10.5281/zenodo.18198505](https://doi.org/10.5281/zenodo.18198505) - Citable research output
+- **Software Heritage:** Visit [save.softwareheritage.org](https://save.softwareheritage.org/) to archive the latest version
+
+### Citation Formats
 
 ```bibtex
 @software{christie_luxbin_quantum_internet_2026,
@@ -449,6 +456,7 @@ MIT License - See [LICENSE](LICENSE) file
 
 - **[LUXBIN Chain](https://github.com/mermaidnicheboutique-code/luxbin-chain)** - Temporal blockchain powered by quantum internet
 - **[LUXBIN Light Language](https://github.com/mermaidnicheboutique-code/Luxbin-light-language)** - Photonic communication protocol
+  - [Software Heritage Archive](https://archive.softwareheritage.org/browse/directory/e1fd5f1fc83d0327f873b506a02bdc3dce4c018a/?origin_url=https://doi.org/10.5281/zenodo.18180262) - Permanent source code preservation
 
 ---
 
