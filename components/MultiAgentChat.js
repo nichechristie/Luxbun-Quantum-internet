@@ -55,7 +55,7 @@ const AI_AGENTS = {
     country: "Finland",
     color: "#10b981",
     gradient: "from-green-500 to-teal-500",
-    avatar: "/chatbot-avatar.mp4",
+    avatar: "/atlas-avatar.mp4",
     welcomeMessage: "Hey! I'm Ian, your communication specialist. Let's connect!",
     stats: { communication: 0.95, trust: 0.9, translation: 0.85 },
     generateResponse: (input) => {
