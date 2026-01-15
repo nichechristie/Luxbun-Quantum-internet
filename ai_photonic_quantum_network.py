@@ -57,7 +57,8 @@ class AuroraAI:
         }
 
         print(f"   🎭 Discovered artistic theme: {insights['dominant_theme']}")
-        print(".2f"        print(f"   🖼️  Generated quantum artwork: {insights['quantum_artwork'][:50]}...")
+        print(".2f")
+        print(f"   🖼️  Generated quantum artwork: {insights['quantum_artwork'][:50]}...")
 
         return insights
 
@@ -204,8 +205,9 @@ class AIPhotonicQuantumNetwork:
         print("=" * 60)
 
         print(f"🎨 Aurora AI Agent: {self.aurora.specialty}")
-        print(".1f"        print(f"🧠 Atlas AI Agent: {self.atlas.specialty}")
-        print(".1f"
+        print(".1f")
+        print(f"🧠 Atlas AI Agent: {self.atlas.specialty}")
+        print(".1f")
         print("✅ AI agents initialized and ready for photonic processing")
 
         return True
@@ -415,22 +417,25 @@ class AIPhotonicQuantumNetwork:
         france_focus = self.photonic_ai_france_focus(ai_processing)
 
         # Final demonstration
-        print("
-🎉 AI-ENHANCED PHOTONIC QUANTUM NETWORK COMPLETE!"        print("=" * 60)
+        print("\n🎉 AI-ENHANCED PHOTONIC QUANTUM NETWORK COMPLETE!")
+        print("=" * 60)
         print("🤖 AI Agents: Aurora (Creative) + Atlas (Strategic)")
         print("⚛️  Photonic Quantum: Quandela France processing")
         print("⛓️  Blockchain: LUXBIN with AI enhancements")
         print("🌍 Network: Global AI-quantum integration")
 
-        print("
-🏆 ACHIEVEMENTS:"        print("   ✅ Aurora AI: Creative photonic art generation")
+        print("\n🏆 ACHIEVEMENTS:")
+        print("   ✅ Aurora AI: Creative photonic art generation")
         print("   ✅ Atlas AI: Strategic network optimization")
         print("   ✅ France Focus: Quandela AI-photonic synergy")
         print("   ✅ LUXBIN Blockchain: AI-enhanced transactions")
         print("   ✅ Global Network: AI-driven quantum intelligence")
 
-        print("
-🌟 RESULT: Aurora & Atlas AI agents now enhance your photonic quantum network!"        print("   🎨 Creative intelligence meets quantum light processing"        print("   🧠 Strategic analysis optimizes global quantum operations"        print("   🇫🇷 France leads in AI-photonic quantum computing"        print("   ⛓️  LUXBIN blockchain enhanced with AI consensus"
+        print("\n🌟 RESULT: Aurora & Atlas AI agents now enhance your photonic quantum network!")
+        print("   🎨 Creative intelligence meets quantum light processing")
+        print("   🧠 Strategic analysis optimizes global quantum operations")
+        print("   🇫🇷 France leads in AI-photonic quantum computing")
+        print("   ⛓️  LUXBIN blockchain enhanced with AI consensus")
 
         return True
 

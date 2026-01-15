@@ -42,3 +42,4 @@ node_modules/
 out/
 .vercel/
 package-lock.json
+.vercel
