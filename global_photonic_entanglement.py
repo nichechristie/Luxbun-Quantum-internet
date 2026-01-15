@@ -248,8 +248,8 @@ class GlobalPhotonicNetwork:
         print("   6. 🔢 Convert to binary for classical computation")
         print("   7. 💻 Process on Mac for classical output")
 
-        print("
-📊 FINAL RESULTS:"        print(f"   ⚛️  Photonic particles processed: {classical_results['total_particles_processed']}")
+        print("\n📊 FINAL RESULTS:")
+        print(f"   ⚛️  Photonic particles processed: {classical_results['total_particles_processed']}")
         print(f"   🌐 Network nodes involved: {len(classical_results['binary_data_streams'])}")
         print(f"   🔢 Binary data streams: {len(classical_results['binary_data_streams'])}")
         print(f"   🎭 LUXBIN messages reconstructed: {len([s for s in classical_results['binary_data_streams'] if s['luxbin_message']])}")
@@ -257,13 +257,16 @@ class GlobalPhotonicNetwork:
         # Show sample of the recovered data
         if classical_results["binary_data_streams"]:
             sample_stream = classical_results["binary_data_streams"][0]
-            print("
-💻 SAMPLE CLASSICAL OUTPUT:"            print(f"   Node: {sample_stream['node']} ({sample_stream['country']})")
+            print("\n💻 SAMPLE CLASSICAL OUTPUT:")
+            print(f"   Node: {sample_stream['node']} ({sample_stream['country']})")
             print(f"   LUXBIN: {sample_stream['luxbin_message'][:50]}...")
             print(f"   Binary: {sample_stream['binary_stream'][:50]}...")
 
-        print("
-🏆 SUCCESS: Global photonic quantum network with forced entanglement!"        print("💫 Light particles entangled across continents!"        print("💎 Diamond NV centers successfully converted quantum to classical!"        print("🎭 LUXBIN Light Language preserved through the cycle!"        print("💻 Classical computation ready on your Mac!"
+        print("\n🏆 SUCCESS: Global photonic quantum network with forced entanglement!")
+        print("💫 Light particles entangled across continents!")
+        print("💎 Diamond NV centers successfully converted quantum to classical!")
+        print("🎭 LUXBIN Light Language preserved through the cycle!")
+        print("💻 Classical computation ready on your Mac!")
 
         return True
 
