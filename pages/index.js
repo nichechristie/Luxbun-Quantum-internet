@@ -1,7 +1,19 @@
 import Head from 'next/head'
+import { useEffect } from 'react'
 import { MultiAgentChat } from '../components/MultiAgentChat'
 
 export default function Home() {
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = '//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+    script.async = true;
+    document.head.appendChild(script);
+
+    window.googleTranslateElementInit = () => {
+      new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+    };
+  }, []);
+
   return (
     <>
       <Head>
@@ -12,6 +24,7 @@ export default function Home() {
       </Head>
 
       <main className="container">
+        <div id="google_translate_element" style={{ textAlign: 'center', marginBottom: '20px' }}></div>
         <header className="hero">
           <div className="hero-badge">World's First Global Quantum Superposition</div>
           <h1>Quantum Internet</h1>
