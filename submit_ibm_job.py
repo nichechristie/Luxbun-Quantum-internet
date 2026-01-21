@@ -18,10 +18,8 @@ def main():
     print("🚀 Connecting to IBM Quantum...")
 
     try:
-        # Use the instance CRN for potential premium access
-        instance_crn = 'crn:v1:bluemix:public:quantum-computing:us-east:a/4c416b81be5443be9329086c6afcdece:19ca0932-7a35-4c98-a032-370414c6840c::'
-        provider = IBMProvider(token=token, instance=instance_crn)
-        print("✅ Connected to IBM Quantum with instance!")
+        provider = IBMProvider(token=token)
+        print("✅ Connected to IBM Quantum!")
 
         # Get available backends
         backends = provider.backends()
@@ -47,7 +45,7 @@ def main():
         # Transpile for the backend
         transpiled_qc = transpile(qc, backend)
 
-        # Submit job using backend.run (legacy API, works with free tier)
+        # Submit job using backend.run (works with free tier)
         print(f"📡 Submitting job to {backend.name}...")
         job = backend.run(transpiled_qc, shots=1024)
 
@@ -56,7 +54,7 @@ def main():
         print(f"📋 Job ID: {job_id}")
         print(f"🔗 Track job status: https://quantum.ibm.com/jobs/{job_id}")
         print("⏳ Job submitted - check dashboard for completion")
-        print("💡 This should appear on your IBM Quantum dashboard!")
+        print("💡 This job SHOULD appear on your IBM Quantum dashboard!")
 
     except Exception as e:
         print(f"❌ Failed: {e}")
