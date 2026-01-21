@@ -2,6 +2,8 @@
   <img src="https://img.shields.io/badge/🌐_QUANTUM-INTERNET-blueviolet?style=for-the-badge&logoColor=white" alt="Quantum Internet"/>
   <img src="https://img.shields.io/badge/⚛️_803-QUBITS-00d4aa?style=for-the-badge" alt="803 Qubits"/>
   <img src="https://img.shields.io/badge/🌍_4-COUNTRIES-ff6b6b?style=for-the-badge" alt="4 Countries"/>
+  <a href="https://translate.google.com/translate?sl=en&tl=auto&u=https://github.com/nichechristie/Luxbun-Quantum-internet"><img src="https://img.shields.io/badge/🌐_Translate-This_Page-blue?style=for-the-badge" alt="Translate this page"></a>
+  <img src="https://img.shields.io/badge/🌐_133-LANGUAGES-green?style=for-the-badge" alt="133 Languages"/>
 </p>
 
 <h1 align="center">🔮 LUXBIN Quantum Internet</h1>
