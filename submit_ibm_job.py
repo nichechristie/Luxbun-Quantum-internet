@@ -5,8 +5,8 @@ Submit a real quantum job to IBM Quantum for verification
 
 import os
 import sys
-from qiskit import QuantumCircuit, QuantumRegister, ClassicalRegister
-from qiskit_ibm_runtime import QiskitRuntimeService, Sampler, Session
+from qiskit import QuantumCircuit, QuantumRegister, ClassicalRegister, transpile
+from qiskit_ibm_provider import IBMProvider
 
 def main():
     # Set token
@@ -18,11 +18,13 @@ def main():
     print("🚀 Connecting to IBM Quantum...")
 
     try:
-        service = QiskitRuntimeService(channel='ibm_quantum_platform')
-        print("✅ Connected to IBM Quantum successfully!")
+        # Use the instance CRN for potential premium access
+        instance_crn = 'crn:v1:bluemix:public:quantum-computing:us-east:a/4c416b81be5443be9329086c6afcdece:19ca0932-7a35-4c98-a032-370414c6840c::'
+        provider = IBMProvider(token=token, instance=instance_crn)
+        print("✅ Connected to IBM Quantum with instance!")
 
         # Get available backends
-        backends = service.backends()
+        backends = provider.backends()
         real_backends = [b for b in backends if not b.simulator and b.status().operational]
         print(f"✅ Found {len(real_backends)} operational quantum computers")
 
@@ -42,18 +44,19 @@ def main():
         print("⚛️ Created quantum circuit: Hadamard + Measure")
         print("📊 Circuit will generate true quantum randomness")
 
-        # Submit job using Session mode (requires paid plan)
-        print(f"📡 Submitting job to {backend.name} using Session mode...")
-        with Session(service=service, backend=backend) as session:
-            sampler = Sampler(session=session)
-            job = sampler.run([qc], shots=1024)
+        # Transpile for the backend
+        transpiled_qc = transpile(qc, backend)
 
-            job_id = job.job_id()
-            print("🎉 REAL QUANTUM JOB SUBMITTED SUCCESSFULLY!")
-            print(f"📋 Job ID: {job_id}")
-            print(f"🔗 Track job status: https://quantum.ibm.com/jobs/{job_id}")
-            print("⏳ Session mode - job may complete faster but requires paid plan")
-            print("💡 Check your IBM Quantum dashboard to see the job!")
+        # Submit job using backend.run (legacy API, works with free tier)
+        print(f"📡 Submitting job to {backend.name}...")
+        job = backend.run(transpiled_qc, shots=1024)
+
+        job_id = job.job_id()
+        print("🎉 REAL QUANTUM JOB SUBMITTED SUCCESSFULLY!")
+        print(f"📋 Job ID: {job_id}")
+        print(f"🔗 Track job status: https://quantum.ibm.com/jobs/{job_id}")
+        print("⏳ Job submitted - check dashboard for completion")
+        print("💡 This should appear on your IBM Quantum dashboard!")
 
     except Exception as e:
         print(f"❌ Failed: {e}")
