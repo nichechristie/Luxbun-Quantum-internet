@@ -33,6 +33,9 @@ export default function Home() {
           <div className="hero-badge" style={{fontFamily: 'Inter, sans-serif', fontWeight: 600, color: '#fff', backgroundColor: '#007bff', padding: '5px 10px', borderRadius: '5px'}}>Quantum Internet Software Suite</div>
           <h1 style={{fontFamily: 'Inter, sans-serif', fontSize: '3rem', fontWeight: 700, color: '#000'}}>Quantum Internet</h1>
           <p className="tagline" style={{fontFamily: 'Inter, sans-serif', fontSize: '1.2rem', color: '#000'}}>Software for photonic quantum networking, broadcasting, and secure communication</p>
+          <div style={{margin: '10px 0'}}>
+            <a href="https://nicheai-nx5p.vercel.app" style={{fontFamily: 'Inter, sans-serif', color: '#007bff', textDecoration: 'none', fontSize: '1.2rem'}} target="_blank" rel="noopener noreferrer">Explore NicheAI App</a>
+          </div>
           <div className="hero-buttons">
             <a href="https://github.com/nichechristie/Luxbin-Quantum-internet/archive/refs/heads/main.zip" className="btn btn-primary" target="_blank" rel="noopener noreferrer">
               Free Download for Classical Computers
@@ -100,8 +103,6 @@ export default function Home() {
         <section className="ai-agents-link" style={{padding: '20px', textAlign: 'center'}}>
           <h2 style={{fontFamily: 'Inter, sans-serif', fontSize: '2.5rem', fontWeight: 700, color: '#000'}}>AI Agents</h2>
           <p style={{fontFamily: 'Inter, sans-serif', fontSize: '1.1rem', color: '#000'}}>Interact with our AI agents securing the quantum network.</p>
-          <a href="https://nicheai-nx5p.vercel.app" style={{fontFamily: 'Inter, sans-serif', color: '#007bff', textDecoration: 'none', fontSize: '1.2rem'}} target="_blank" rel="noopener noreferrer">Explore NicheAI App</a>
-
         </section>
 
         <section className="providers">
