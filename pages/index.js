@@ -85,6 +85,38 @@ export default function Home() {
           </div>
         </section>
 
+        <section className="software-stack">
+          <h2>Integrated Quantum Ecosystem</h2>
+          <p className="section-subtitle">Comprehensive software stack for quantum internet infrastructure</p>
+          <div className="stack-grid">
+            <div className="stack-item">
+              <h3>Hybrid Quantum Processor</h3>
+              <p>Photonic-NV center hardware for entanglement generation and routing. Includes Mach-Zehnder interferometer and quartz AOM.</p>
+              <a href="https://github.com/nichechristie/the-perfect-quantum-processor" target="_blank" rel="noopener noreferrer">View Design</a>
+            </div>
+            <div className="stack-item">
+              <h3>Luxbin-Quantum-Internet</h3>
+              <p>Networking software with photonic broadcasting, AI agents, and quantum validators for secure global communication.</p>
+              <a href="https://github.com/nichechristie/Luxbin-Quantum-internet" target="_blank" rel="noopener noreferrer">View Repo</a>
+            </div>
+            <div className="stack-item">
+              <h3>luxbin-chain1</h3>
+              <p>Blockchain for decentralized quantum-secure transactions and tokenomics, integrated with QKD.</p>
+              <a href="https://github.com/mermaidnicheboutique-code/luxbin-chain1" target="_blank" rel="noopener noreferrer">View Chain</a>
+            </div>
+            <div className="stack-item">
+              <h3>LUXBIN-Self-Sustaining-FSD-Computer</h3>
+              <p>Web interface for quantum-enhanced autonomous systems, with self-sustaining FSD computers for vehicles.</p>
+              <a href="https://github.com/mermaidnicheboutique-code/LUXBIN-Self-Sustaining-FSD-Computer" target="_blank" rel="noopener noreferrer">View Interface</a>
+            </div>
+          </div>
+          <div className="ecosystem-link">
+            <a href="https://github.com/nichechristie/luxbin-integrated-quantum-ecosystem" className="btn btn-primary" target="_blank" rel="noopener noreferrer">
+              Explore Integrated Ecosystem
+            </a>
+          </div>
+        </section>
+
         <section className="ai-agents">
           <h2>AI Agents Securing the Network</h2>
           <p className="section-subtitle">4 AI agents deployed to 4 countries simultaneously</p>
