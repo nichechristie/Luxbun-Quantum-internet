@@ -17,13 +17,17 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Quantum Internet | Global Quantum Computing Network</title>
-        <meta name="description" content="12+ quantum computers across 4 countries powering LUXBIN Light Language blockchain" />
+        <title>Quantum Internet | Software Suite for Photonic Networking</title>
+        <meta name="description" content="Comprehensive software suite for quantum-inspired photonic networking, broadcasting, AI agents, and secure communication protocols" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="container">
+      <video autoPlay muted loop style={{position: 'fixed', top: 0, left: 0, width: '100%', height: '100%', zIndex: -1, objectFit: 'cover'}}>
+        <source src="/grok-video.mp4" type="video/mp4" />
+      </video>
+
+      <main className="container" style={{position: 'relative', zIndex: 1}}>
         <div id="google_translate_element" style={{ textAlign: 'center', marginBottom: '20px' }}></div>
         <header className="hero">
           <div className="hero-badge">Quantum Internet Software Suite</div>
@@ -110,6 +114,14 @@ export default function Home() {
               <a href="https://github.com/mermaidnicheboutique-code/LUXBIN-Self-Sustaining-FSD-Computer" target="_blank" rel="noopener noreferrer">View Interface</a>
             </div>
           </div>
+          <h3>Key Features in This Repo</h3>
+          <ul>
+            <li><strong>Photonic Broadcasting:</strong> Scripts for quantum audio, video, and pixel broadcasting (e.g., quantum_audio_broadcast.py, photonic_pixel_broadcast.py).</li>
+            <li><strong>AI Agents:</strong> Multi-agent coordination for network management (e.g., multi_agent_ai_quantum_network.py, real_ai_agents.py).</li>
+            <li><strong>Entanglement Simulation:</strong> Global photonic entanglement and quantum operations (e.g., global_photonic_entanglement.py, real_quantum_operations.py).</li>
+            <li><strong>Validators and Bridges:</strong> Quantum validators and WiFi bridges for secure connections (e.g., quantum_validator_bridge.py, quantum_wifi_bridge.py).</li>
+            <li><strong>Deployment Tools:</strong> Scripts for starting quantum internet, validators, and international agents (e.g., start_quantum_internet.sh, deploy_ai_agents_international.py).</li>
+          </ul>
           <div className="ecosystem-link">
             <a href="https://github.com/nichechristie/luxbin-integrated-quantum-ecosystem" className="btn btn-primary" target="_blank" rel="noopener noreferrer">
               Explore Integrated Ecosystem
