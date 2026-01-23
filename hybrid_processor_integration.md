@@ -1,6 +1,6 @@
 # Integration of Hybrid Quantum Processor with Luxbin Ecosystem
 
-This document outlines how the hybrid quantum processor integrates with the broader Luxbin ecosystem: Luxbin-Quantum-Internet (networking), Luxbin-Chain (blockchain), and Luxbin-Tesla-Website (user interface).
+This document outlines how the hybrid quantum processor integrates with the broader Luxbin ecosystem: Luxbin-Quantum-Internet (networking), luxbin-chain1 (blockchain), and LUXBIN-Self-Sustaining-FSD-Computer (user interface).
 
 ## Processor Overview
 - **Hardware Components**: Photonic chip with Mach-Zehnder interferometer, quartz AOM, NV centers in diamond for memory, boron-doped diamond for electrodes, copper shielding.
@@ -13,12 +13,12 @@ This document outlines how the hybrid quantum processor integrates with the broa
 - **Integration**: Processor as quantum nodes; scripts for routing/broadcasting.
 - **Applications**: Secure comms, quantum broadcasting.
 
-### Luxbin-Chain
+### luxbin-chain1
 - **Role**: Blockchain for decentralized quantum transactions and tokenomics.
-- **Integration**: Quantum-secure smart contracts via processor's QKD; validators on Luxbin-Chain.
+- **Integration**: Quantum-secure smart contracts via processor's QKD; validators on luxbin-chain1.
 - **Applications**: Secure payments, decentralized quantum networks.
 
-### Luxbin-Tesla-Website
+### LUXBIN-Self-Sustaining-FSD-Computer
 - **Role**: Web interface for quantum-enhanced Tesla FSD (self-sustaining computers).
 - **Integration**: Processor powers quantum AI for autonomous vehicles; website monitors quantum links.
 - **Applications**: Quantum-secured autonomous driving.
