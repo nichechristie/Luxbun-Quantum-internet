@@ -21,6 +21,7 @@ export default function Home() {
         <meta name="description" content="Comprehensive software suite for quantum-inspired photonic networking, broadcasting, AI agents, and secure communication protocols" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
       </Head>
 
       <video autoPlay muted loop style={{position: 'fixed', top: 0, left: 0, width: '100%', height: '100%', zIndex: -1, objectFit: 'cover'}}>
@@ -29,10 +30,10 @@ export default function Home() {
 
       <main className="container" style={{position: 'relative', zIndex: 1}}>
         <div id="google_translate_element" style={{ textAlign: 'center', marginBottom: '20px' }}></div>
-        <header className="hero">
-          <div className="hero-badge">Quantum Internet Software Suite</div>
-          <h1>Quantum Internet</h1>
-          <p className="tagline">Software for photonic quantum networking, broadcasting, and secure communication</p>
+        <header className="hero" style={{backgroundColor: 'rgba(0,0,0,0.7)', padding: '20px', borderRadius: '10px'}}>
+          <div className="hero-badge" style={{fontFamily: 'Inter, sans-serif', fontWeight: 600, color: '#fff', backgroundColor: '#007bff', padding: '5px 10px', borderRadius: '5px'}}>Quantum Internet Software Suite</div>
+          <h1 style={{fontFamily: 'Inter, sans-serif', fontSize: '3rem', fontWeight: 700, color: '#fff', textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>Quantum Internet</h1>
+          <p className="tagline" style={{fontFamily: 'Inter, sans-serif', fontSize: '1.2rem', color: '#fff', textShadow: '1px 1px 2px rgba(0,0,0,0.8)'}}>Software for photonic quantum networking, broadcasting, and secure communication</p>
           <div className="hero-buttons">
             <a href="https://github.com/nichechristie/Luxbin-Quantum-internet" className="btn btn-primary" target="_blank" rel="noopener noreferrer">
               View on GitHub
@@ -43,31 +44,31 @@ export default function Home() {
           </div>
         </header>
 
-        <section className="stats">
-          <div className="stat-card">
-            <span className="stat-number">20+</span>
-            <span className="stat-label">Python Scripts</span>
+        <section className="stats" style={{backgroundColor: 'rgba(0,0,0,0.7)', padding: '20px', borderRadius: '10px'}}>
+          <div className="stat-card" style={{color: '#fff', textAlign: 'center'}}>
+            <span className="stat-number" style={{fontFamily: 'Inter, sans-serif', fontSize: '2rem', fontWeight: 700, display: 'block'}}>20+</span>
+            <span className="stat-label" style={{fontFamily: 'Inter, sans-serif', fontSize: '1rem'}}>Python Scripts</span>
           </div>
-          <div className="stat-card">
-            <span className="stat-number">4</span>
-            <span className="stat-label">AI Agents</span>
+          <div className="stat-card" style={{color: '#fff', textAlign: 'center'}}>
+            <span className="stat-number" style={{fontFamily: 'Inter, sans-serif', fontSize: '2rem', fontWeight: 700, display: 'block'}}>4</span>
+            <span className="stat-label" style={{fontFamily: 'Inter, sans-serif', fontSize: '1rem'}}>AI Agents</span>
           </div>
-          <div className="stat-card">
-            <span className="stat-number">Photonics</span>
-            <span className="stat-label">Broadcasting</span>
+          <div className="stat-card" style={{color: '#fff', textAlign: 'center'}}>
+            <span className="stat-number" style={{fontFamily: 'Inter, sans-serif', fontSize: '2rem', fontWeight: 700, display: 'block'}}>Photonics</span>
+            <span className="stat-label" style={{fontFamily: 'Inter, sans-serif', fontSize: '1rem'}}>Broadcasting</span>
           </div>
-          <div className="stat-card">
-            <span className="stat-number">Secure</span>
-            <span className="stat-label">Networking</span>
+          <div className="stat-card" style={{color: '#fff', textAlign: 'center'}}>
+            <span className="stat-number" style={{fontFamily: 'Inter, sans-serif', fontSize: '2rem', fontWeight: 700, display: 'block'}}>Secure</span>
+            <span className="stat-label" style={{fontFamily: 'Inter, sans-serif', fontSize: '1rem'}}>Networking</span>
           </div>
         </section>
 
-        <section id="ecosystem" className="achievement">
-          <h2>Quantum Networking Software Demonstration</h2>
-          <div className="quantum-state">
-            <code>Ψ_network = Σ |data⟩_photonic ⊗ |secure⟩_entangled</code>
+        <section id="ecosystem" className="achievement" style={{backgroundColor: 'rgba(0,0,0,0.7)', padding: '20px', borderRadius: '10px', color: '#fff'}}>
+          <h2 style={{fontFamily: 'Inter, sans-serif', fontSize: '2.5rem', fontWeight: 700, textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>Quantum Networking Software Demonstration</h2>
+          <div className="quantum-state" style={{backgroundColor: 'rgba(255,255,255,0.1)', padding: '10px', borderRadius: '5px'}}>
+            <code style={{fontFamily: 'monospace', color: '#fff'}}>Ψ_network = Σ |data⟩_photonic ⊗ |secure⟩_entangled</code>
           </div>
-          <p>Software suite for quantum-inspired networking, broadcasting, and secure communication protocols.</p>
+          <p style={{fontFamily: 'Inter, sans-serif', fontSize: '1.1rem', textShadow: '1px 1px 2px rgba(0,0,0,0.8)'}}>Software suite for quantum-inspired networking, broadcasting, and secure communication protocols.</p>
 
           <div className="achievement-grid">
             <div className="achievement-item">
@@ -89,33 +90,33 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="software-stack">
-          <h2>Integrated Quantum Ecosystem</h2>
-          <p className="section-subtitle">Comprehensive software stack for quantum internet infrastructure</p>
+        <section className="software-stack" style={{backgroundColor: 'rgba(0,0,0,0.7)', padding: '20px', borderRadius: '10px', color: '#fff'}}>
+          <h2 style={{fontFamily: 'Inter, sans-serif', fontSize: '2.5rem', fontWeight: 700, textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>Integrated Quantum Ecosystem</h2>
+          <p className="section-subtitle" style={{fontFamily: 'Inter, sans-serif', fontSize: '1.1rem', textShadow: '1px 1px 2px rgba(0,0,0,0.8)'}}>Comprehensive software stack for quantum internet infrastructure</p>
           <div className="stack-grid">
-            <div className="stack-item">
-              <h3>Hybrid Quantum Processor</h3>
-              <p>Photonic-NV center hardware for entanglement generation and routing. Includes Mach-Zehnder interferometer and quartz AOM.</p>
-              <a href="https://github.com/nichechristie/the-perfect-quantum-processor" target="_blank" rel="noopener noreferrer">View Design</a>
+            <div className="stack-item" style={{backgroundColor: 'rgba(255,255,255,0.1)', padding: '15px', borderRadius: '5px', margin: '10px'}}>
+              <h3 style={{fontFamily: 'Inter, sans-serif', fontSize: '1.5rem', fontWeight: 600}}>Hybrid Quantum Processor</h3>
+              <p style={{fontFamily: 'Inter, sans-serif', fontSize: '1rem'}}>Photonic-NV center hardware for entanglement generation and routing. Includes Mach-Zehnder interferometer and quartz AOM.</p>
+              <a href="https://github.com/nichechristie/the-perfect-quantum-processor" style={{color: '#007bff', textDecoration: 'none'}} target="_blank" rel="noopener noreferrer">View Design</a>
             </div>
-            <div className="stack-item">
-              <h3>Luxbin-Quantum-Internet</h3>
-              <p>Networking software with photonic broadcasting, AI agents, and quantum validators for secure global communication.</p>
-              <a href="https://github.com/nichechristie/Luxbin-Quantum-internet" target="_blank" rel="noopener noreferrer">View Repo</a>
+            <div className="stack-item" style={{backgroundColor: 'rgba(255,255,255,0.1)', padding: '15px', borderRadius: '5px', margin: '10px'}}>
+              <h3 style={{fontFamily: 'Inter, sans-serif', fontSize: '1.5rem', fontWeight: 600}}>Luxbin-Quantum-Internet</h3>
+              <p style={{fontFamily: 'Inter, sans-serif', fontSize: '1rem'}}>Networking software with photonic broadcasting, AI agents, and quantum validators for secure global communication.</p>
+              <a href="https://github.com/nichechristie/Luxbin-Quantum-internet" style={{color: '#007bff', textDecoration: 'none'}} target="_blank" rel="noopener noreferrer">View Repo</a>
             </div>
-            <div className="stack-item">
-              <h3>luxbin-chain1</h3>
-              <p>Blockchain for decentralized quantum-secure transactions and tokenomics, integrated with QKD.</p>
-              <a href="https://github.com/mermaidnicheboutique-code/luxbin-chain1" target="_blank" rel="noopener noreferrer">View Chain</a>
+            <div className="stack-item" style={{backgroundColor: 'rgba(255,255,255,0.1)', padding: '15px', borderRadius: '5px', margin: '10px'}}>
+              <h3 style={{fontFamily: 'Inter, sans-serif', fontSize: '1.5rem', fontWeight: 600}}>luxbin-chain1</h3>
+              <p style={{fontFamily: 'Inter, sans-serif', fontSize: '1rem'}}>Blockchain for decentralized quantum-secure transactions and tokenomics, integrated with QKD.</p>
+              <a href="https://github.com/mermaidnicheboutique-code/luxbin-chain1" style={{color: '#007bff', textDecoration: 'none'}} target="_blank" rel="noopener noreferrer">View Chain</a>
             </div>
-            <div className="stack-item">
-              <h3>LUXBIN-Self-Sustaining-FSD-Computer</h3>
-              <p>Web interface for quantum-enhanced autonomous systems, with self-sustaining FSD computers for vehicles.</p>
-              <a href="https://github.com/mermaidnicheboutique-code/LUXBIN-Self-Sustaining-FSD-Computer" target="_blank" rel="noopener noreferrer">View Interface</a>
+            <div className="stack-item" style={{backgroundColor: 'rgba(255,255,255,0.1)', padding: '15px', borderRadius: '5px', margin: '10px'}}>
+              <h3 style={{fontFamily: 'Inter, sans-serif', fontSize: '1.5rem', fontWeight: 600}}>LUXBIN-Self-Sustaining-FSD-Computer</h3>
+              <p style={{fontFamily: 'Inter, sans-serif', fontSize: '1rem'}}>Web interface for quantum-enhanced autonomous systems, with self-sustaining FSD computers for vehicles.</p>
+              <a href="https://github.com/mermaidnicheboutique-code/LUXBIN-Self-Sustaining-FSD-Computer" style={{color: '#007bff', textDecoration: 'none'}} target="_blank" rel="noopener noreferrer">View Interface</a>
             </div>
           </div>
-          <h3>Key Features in This Repo</h3>
-          <ul>
+          <h3 style={{fontFamily: 'Inter, sans-serif', fontSize: '1.8rem', fontWeight: 600, marginTop: '20px'}}>Key Features in This Repo</h3>
+          <ul style={{fontFamily: 'Inter, sans-serif', fontSize: '1rem', lineHeight: '1.6'}}>
             <li><strong>Photonic Broadcasting:</strong> Scripts for quantum audio, video, and pixel broadcasting (e.g., quantum_audio_broadcast.py, photonic_pixel_broadcast.py).</li>
             <li><strong>AI Agents:</strong> Multi-agent coordination for network management (e.g., multi_agent_ai_quantum_network.py, real_ai_agents.py).</li>
             <li><strong>Entanglement Simulation:</strong> Global photonic entanglement and quantum operations (e.g., global_photonic_entanglement.py, real_quantum_operations.py).</li>
@@ -129,9 +130,9 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="ai-agents">
-          <h2>AI Agents Securing the Network</h2>
-          <p className="section-subtitle">4 AI agents deployed to 4 countries simultaneously</p>
+        <section className="ai-agents" style={{backgroundColor: 'rgba(0,0,0,0.7)', padding: '20px', borderRadius: '10px', color: '#fff'}}>
+          <h2 style={{fontFamily: 'Inter, sans-serif', fontSize: '2.5rem', fontWeight: 700, textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>AI Agents Securing the Network</h2>
+          <p className="section-subtitle" style={{fontFamily: 'Inter, sans-serif', fontSize: '1.1rem', textShadow: '1px 1px 2px rgba(0,0,0,0.8)'}}>4 AI agents deployed to 4 countries simultaneously</p>
           <div className="chat-cta">
             <span className="chat-pulse"></span>
             Chat with our AI agents - Click the avatars in the bottom right corner!
