@@ -60,6 +60,16 @@ export default function Download() {
         </section>
 
         <section style={{margin: '20px 0'}}>
+          <h2 style={{fontFamily: 'Inter, sans-serif', fontSize: '2rem'}}>Installation Instructions</h2>
+          <p style={{fontFamily: 'Inter, sans-serif', fontSize: '1rem'}}>After purchase, download and install:</p>
+          <ul style={{fontFamily: 'Inter, sans-serif', fontSize: '1rem'}}>
+            <li><strong>Classical:</strong> Run <code>pip install -e .</code> in the repo directory.</li>
+            <li><strong>Photonic Quantum:</strong> Use <code>python install_quantum.py photonic</code> to deploy circuits.</li>
+            <li><strong>Diamond Quantum:</strong> Use <code>python install_quantum.py diamond</code> for NV-center pulses.</li>
+          </ul>
+        </section>
+
+        <section style={{margin: '20px 0'}}>
           <h2 style={{fontFamily: 'Inter, sans-serif', fontSize: '2rem'}}>Free Trial</h2>
           <p style={{fontFamily: 'Inter, sans-serif', fontSize: '1rem'}}>Access basic scripts for free on GitHub.</p>
           <a href="https://github.com/nichechristie/Luxbin-Quantum-internet" style={{fontFamily: 'Inter, sans-serif', color: '#007bff', textDecoration: 'none'}}>View on GitHub</a>
