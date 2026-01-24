@@ -1,3 +1,4 @@
+luxbin-quantum-academy.vercel.app
 <p align="center">
   <img src="https://img.shields.io/badge/🌐_QUANTUM-INTERNET-blueviolet?style=for-the-badge&logoColor=white" alt="Quantum Internet"/>
   <img src="https://img.shields.io/badge/⚛️_IBM-QUANTUM-00d4aa?style=for-the-badge" alt="IBM Quantum"/>
