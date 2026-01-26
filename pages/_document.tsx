@@ -4,6 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
+        <meta name="base:app_id" content="6976a0803a92926b661fd59a" />
         <meta
           name="fc:miniapp"
           content={JSON.stringify({
