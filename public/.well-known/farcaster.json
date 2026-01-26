@@ -9,8 +9,8 @@
     "name": "Luxbin",
     "subtitle": "Quantum Internet Platform",
     "description": "Luxbin Quantum Internet - The future of secure, quantum-powered blockchain technology with embedded wallets and gasless transactions.",
-    "iconUrl": "https://quantum-internet.vercel.app/favicon.svg",
-    "splashImageUrl": "https://quantum-internet.vercel.app/favicon.svg",
+    "iconUrl": "https://quantum-internet.vercel.app/icon.jpg",
+    "splashImageUrl": "https://quantum-internet.vercel.app/icon.jpg",
     "splashBackgroundColor": "#0a0a0f",
     "homeUrl": "https://quantum-internet.vercel.app",
     "webhookUrl": "https://quantum-internet.vercel.app/api/webhooks/coinbase",
@@ -19,8 +19,8 @@
     "tagline": "Quantum Blockchain Platform",
     "ogTitle": "Luxbin Quantum Internet",
     "ogDescription": "Secure quantum-powered blockchain with embedded wallets and gasless transactions.",
-    "ogImageUrl": "https://quantum-internet.vercel.app/favicon.svg",
-    "heroImageUrl": "https://quantum-internet.vercel.app/favicon.svg",
+    "ogImageUrl": "https://quantum-internet.vercel.app/icon.jpg",
+    "heroImageUrl": "https://quantum-internet.vercel.app/icon.jpg",
     "screenshotUrls": [],
     "noindex": false
   }
