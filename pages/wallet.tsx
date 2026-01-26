@@ -1,5 +1,10 @@
 import Head from "next/head";
-import { EmbeddedWalletAuth } from "../components/EmbeddedWallet";
+import dynamic from "next/dynamic";
+
+const EmbeddedWalletAuth = dynamic(
+  () => import("../components/EmbeddedWallet").then((mod) => mod.EmbeddedWalletAuth),
+  { ssr: false }
+);
 
 export default function WalletPage() {
   return (

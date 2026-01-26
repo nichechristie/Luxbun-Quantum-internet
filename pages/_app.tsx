@@ -1,16 +1,15 @@
 import type { AppProps } from "next/app";
-import { CDPReactProvider, type Config as CDPConfig } from "@coinbase/cdp-react";
+import dynamic from "next/dynamic";
 
-const cdpConfig: CDPConfig = {
-  projectId: process.env.NEXT_PUBLIC_COINBASE_PROJECT_ID || "",
-  appName: "Luxbin",
-  appLogoUrl: "https://quantum-internet.vercel.app/favicon.svg",
-};
+const CDPWrapper = dynamic(
+  () => import("../components/CDPWrapper"),
+  { ssr: false }
+);
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <CDPReactProvider config={cdpConfig}>
+    <CDPWrapper>
       <Component {...pageProps} />
-    </CDPReactProvider>
+    </CDPWrapper>
   );
 }
