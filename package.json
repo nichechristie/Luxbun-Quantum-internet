@@ -8,8 +8,15 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "^14.0.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "@coinbase/cdp-core": "^0.0.78",
+    "@coinbase/cdp-hooks": "^0.0.78",
+    "@coinbase/cdp-react": "^0.0.78",
+    "next": "16.1.1",
+    "react": "^19",
+    "react-dom": "^19",
+    "typescript": "^5",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/node": "^20"
   }
 }
